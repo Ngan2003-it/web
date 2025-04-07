@@ -1,0 +1,78 @@
+.Khung1 {
+    background-color: #ffa500;
+    margin: 40px 20px 0px 20px;
+    padding: 60px 60px 50px 60px;  
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.Khung1_1 {
+    font-size: 30px;
+    color: white;
+}
+.Khung1_2 {
+    color: white;
+}
+.Khung1_3 {
+    background-color: white;
+    margin: 25px 55px 0px 0px;
+    padding-block: 15px;
+    border-radius: 50px;
+    color: #ffa500;
+    text-align: center;
+    transition: all 1s ease-in-out
+}
+.Khung2 {
+    background-color: rgb(24, 118, 101);
+    margin: 0px 20px 0px 20px;
+    padding: 60px 60px 50px 60px;  
+    
+}
+.Khung2_1 {
+    font-size: 30px;
+    color: white;
+}
+.Khung2_2 {
+    color: white;
+}
+.Khung2_3 {
+    background-color: white;
+    margin: 25px 55px 0px 0px;
+    padding-block: 15px;
+    border-radius: 50px;
+    text-align: center;
+    color: rgb(24, 118, 101) ;
+    transition: all 1s ease-in-out
+}
+.Khung3 {
+    background-color: rgb(15, 75, 64);
+    margin: 0px 20px 0px 20px;
+    padding: 60px 60px 50px 60px;  
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+}
+.Khung3_1 {
+    font-size: 30px;
+    color: white;
+}
+.Khung3_2 {
+    color: white;
+}
+.Khung3_3 {
+    background-color: white;
+    margin: 25px 55px 0px 0px;
+    padding-block: 15px;
+    border-radius: 50px;
+    text-align: center;
+    color: rgb(15, 75, 64) ;
+}
+@media screen and (min-width: 768px) {
+.khung {
+    display: flex;
+    margin: 0px;
+}
+}
+
+
+
+
