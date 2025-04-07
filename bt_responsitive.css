@@ -1,78 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap");
+*,
+body {
+  font-family: "Lexend Deca", sans-serif;
+}
+.khung_container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 20px;
+  /* Nên cho gap để tạo khoảng cách giữa các con */
+}
+
+.title {
+  font-family: "Big Shoulders", sans-serif;
+  font-size: 2.5rem;
+}
+.khung {
+  padding: 60px 60px 50px 60px;
+}
 .Khung1 {
-    background-color: #ffa500;
-    margin: 40px 20px 0px 20px;
-    padding: 60px 60px 50px 60px;  
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+  background-color: #ffa500;
+  border-radius: 10px 10px 0 0;
 }
 .Khung1_1 {
-    font-size: 30px;
-    color: white;
+  font-size: 30px;
+  color: white;
 }
 .Khung1_2 {
-    color: white;
+  color: white;
 }
-.Khung1_3 {
-    background-color: white;
-    margin: 25px 55px 0px 0px;
-    padding-block: 15px;
-    border-radius: 50px;
-    color: #ffa500;
-    text-align: center;
-    transition: all 1s ease-in-out
+.btn-1 {
+  color: #ffa500;
 }
 .Khung2 {
-    background-color: rgb(24, 118, 101);
-    margin: 0px 20px 0px 20px;
-    padding: 60px 60px 50px 60px;  
-    
+  background-color: rgb(24, 118, 101);
 }
-.Khung2_1 {
-    font-size: 30px;
-    color: white;
+
+.text {
+  color: white;
 }
-.Khung2_2 {
-    color: white;
+.btn {
+  background-color: white;
+  border-radius: 50px;
+  border: 0;
+  padding: 16px 32px;
+  font-weight: bold;
 }
-.Khung2_3 {
-    background-color: white;
-    margin: 25px 55px 0px 0px;
-    padding-block: 15px;
-    border-radius: 50px;
-    text-align: center;
-    color: rgb(24, 118, 101) ;
-    transition: all 1s ease-in-out
+/* Dùng để ấn element */
+.btn:active {
+  background-color: black;
+}
+.btn-2 {
+  color: rgb(24, 118, 101);
 }
 .Khung3 {
-    background-color: rgb(15, 75, 64);
-    margin: 0px 20px 0px 20px;
-    padding: 60px 60px 50px 60px;  
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    
+  background-color: rgb(15, 75, 64);
+  border-radius: 0px 0px 10px 10px;
 }
-.Khung3_1 {
-    font-size: 30px;
-    color: white;
+
+.btn-3 {
+  color: rgb(15, 75, 64);
 }
-.Khung3_2 {
-    color: white;
+
+.text-content {
+  margin-bottom: 32px;
 }
-.Khung3_3 {
-    background-color: white;
-    margin: 25px 55px 0px 0px;
-    padding-block: 15px;
-    border-radius: 50px;
-    text-align: center;
-    color: rgb(15, 75, 64) ;
-}
-@media screen and (min-width: 768px) {
-.khung {
+@media screen and (min-width: 992px) {
+  .khung_container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .khung {
     display: flex;
-    margin: 0px;
+    flex-direction: column;
+    align-items: start;
+    width: 10%;
+    height: 70%;
+  }
+  .Khung1 {
+    border-radius: 10px 0 0 10px;
+  }
+  /* Lấy toàn trống còn trống còn xót và cho margin (top) chứa đầy khoảng trống đó */
+  .btn {
+    margin-top: auto;
+  }
+  .Khung3 {
+    border-radius: 0px 10px 10px 0;
+  }
 }
-}
-
-
-
-

@@ -1,82 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-*,html,body {
-    font-family: "Big Shoulders", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+*,
+html,
+body {
+  font-family: "Big Shoulders", sans-serif;
+  box-sizing: border-box;
 }
 body {
-    background-color: #FFA780;
-    
+  background-color: #ffa780;
+  width: 100vw;
 }
 
 .hinhbtx {
-    text-align: center;
-    background-color: #FFA780;
+  text-align: center;
+  background-color: #ffa780;
 }
 .logo {
-    width: 500px;
-    height: 500px;
-
+  width: 500px;
+  height: 500px;
 }
-.hopbun {   
-    width: 500px;
-    height: 500px;
-    border-radius: 30%;
-    margin: 50px;  
-    
+.hopbun {
+  width: calc(33.3333% - 50px);
+  aspect-ratio: 1/1; /* tỉ lệ dài rộng 1:1 */
+  border-radius: 10px;
 }
 .hopbunh1 {
-    display: flex;
-    justify-content: space-evenly; 
+  margin-block: 20px;
+  display: flex;
+  gap: 50px;
+
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .hopbunh2 {
- display: flex;
- justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 .mucluc {
-    display:flex;
-    justify-content: space-evenly;
-
+  display: flex;
+  justify-content: space-evenly;
 }
 .chu {
-    color:black;
-    font-size: 40px;
-border-radius: 20px;
-padding: 10px;
-background-color: #FFE5D2;
-margin-top: 20px;
-transition: all 1s ease-in-out;
-list-style: none;
+  color: black;
+  font-size: 40px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #ffe5d2;
+  margin-top: 20px;
+  transition: all 1s ease-in-out;
+  list-style: none;
 }
-.chu:hover{
- color:#FFE5D2;
- background-color: black; 
- padding: 20px;
+.chu:hover {
+  color: #ffe5d2;
+  background-color: black;
+  padding: 20px;
 }
 .daygiua {
-    display:flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 iframe {
-    width: 80%;
-    height: 350px;
-    border-radius: 30px;
+  width: 80%;
+  height: 350px;
+  border-radius: 30px;
 }
-h1 {
-    padding: 10px 5%;
-    margin: 0% 10% 0% 10%;
-    background-color: antiquewhite;
-    border-radius: 20px;
-    text-align: center;
+h2 {
+  padding: 10px 5%;
+  margin: 0% 10% 0% 10%;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  text-align: center;
 }
 .thongtin {
-    font-size: 30px;
-border-radius: 20px;
-border-top-left-radius: 0px; 
-border-top-right-radius: 0px;
-padding-left: 5px;
-margin: 0% 20% 0% 20%;
-background-color: #E69580;
-text-align: center;
-list-style: none;
-    
+  font-size: 30px;
+  border-radius: 20px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  padding-left: 5px;
+  margin: 0% 20% 0% 20%;
+  background-color: #e69580;
+  text-align: center;
+  list-style: none;
 }
 
+@media screen and (max-width: 992px) {
+  .hopbun {
+    width: calc(50% - 50px);
+  }
+}
+@media screen and (max-width: 778px) {
+  .hopbun {
+    width: 100%;
+  }
+}
