@@ -65,6 +65,7 @@ body {
 .text-content {
   margin-bottom: 32px;
 }
+
 @media screen and (min-width: 992px) {
   .khung_container {
     flex-direction: row;
@@ -72,14 +73,14 @@ body {
     align-items: center;
     height: 100vh;
   }
-
   .khung {
-    display: flex;
+    display: flex; /* sắp xếp mỗi phần tử trong từng khung*/
     flex-direction: column;
     align-items: start;
-    width: 10%;
+    width: 10%; /*chiều rộng và dài của nguyên cái khung đó*/
     height: 70%;
   }
+  
   .Khung1 {
     border-radius: 10px 0 0 10px;
   }

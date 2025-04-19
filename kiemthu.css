@@ -1,0 +1,43 @@
+body {
+
+  box-sizing: border-box; 
+  height: 100vh;
+  width: 100vw;
+  display:flex; /*mặc định là căn ngang*/
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 89, 89);
+}
+img {
+  width: 300px;
+}
+.container {
+  background-color: orange ;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}
+.hi {
+  text-align: center;
+  margin: 0px 30px;
+  padding: 7px;
+  color:white;
+  background-color: rgba(110, 42, 42, 0.775);
+}
+.mot {
+  border-radius: 5px ;
+
+}
+.hai {
+margin: 0px 40px 15px 40px;
+border-radius: 0px 0px 5px 5px;
+text-decoration: none; 
+transition: all 1s ease-in-out;
+}
+.hai:hover {
+ padding: 14px;
+ background-color: white ;
+color: rgba(110, 42, 42, 0.775);
+}
