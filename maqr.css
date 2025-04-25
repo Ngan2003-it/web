@@ -7,11 +7,12 @@ body {
     align-items: center;
 }
 .container {
-    padding: 15px; /*padding này là đảy từ cái khung hả ta*/
-    width: 300px;
     text-align: center;
     background-color: white;
     border-radius: 15px;
+    height: auto;
+    padding: 15px; /*padding này là đảy từ cái khung hả ta*/
+    width: 300px;
 }
 img {
     width: 100%;
@@ -33,7 +34,6 @@ p {
     display:flex;
     flex-direction: column;
     justify-content: center;
-    height:100px;
     align-items: center;
     min-height: 56vh;
     margin: auto;
